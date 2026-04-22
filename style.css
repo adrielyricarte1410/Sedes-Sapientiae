@@ -1,0 +1,103 @@
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* MENU */
+nav {
+    background-color:brown;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* TÍTULOS */
+h1 {
+    text-align: center;
+    color: brown;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* PARÁGRAFOS */
+p {
+    text-align: justify;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* IMAGEM PRINCIPAL */
+.banner {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* IMAGENS */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* LISTAS */
+ul, ol {
+    margin: 20px;
+}
+
+/* TABELA */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* FORMULÁRIO */
+form {
+    background-color: #eee;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* BOTÕES */
+input[type="submit"],
+input[type="reset"] {
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: brown;
+}
+   video, audio {
+    display: block;
+    margin: 20px auto;
+}
